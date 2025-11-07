@@ -1,7 +1,7 @@
 import pandas as pd
 
 #import  file excel
-file_masuk =  r"C:/Users/MUHAMMAD ZAKI F P/Documents/File Tugas/data_wisuda_modif.xlsx"
+file_masuk =  r"data_wisuda_modif.xlsx"
 data = pd.read_excel(file_masuk)
 
 # Menentukan Grade
