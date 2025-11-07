@@ -1,3 +1,3 @@
-print ("Halo")
+print ("firly Ganteng")
 fgklyugfjk
 ojgkgnkghghf
