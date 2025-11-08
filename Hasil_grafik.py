@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
+
 
 #import  file excel
 file_masuk = "data_wisuda_modif.xlsx"
@@ -54,24 +54,6 @@ print(jmlh_wisudawan)
 file_keluar="Rekap_hasil_wisuda_grafik.xlsx"
 data.to_excel(file_keluar, index=False)
 
-# ============  Diagram Batang  =============
-plt.figure(figsize=(10, 5))
-plt.bar(jmlh_wisudawan['Program Studi'], jmlh_wisudawan['Jumlah Wisudawan'], color='pink')
-plt.title('Jumlah Wisudawan setiap Program Studi')
-plt.xlabel('Program Studi')
-plt.ylabel('Jumlah Wisudawan')
-plt.xticks(rotation=30, ha='right')
-plt.tight_layout()
-plt.show()
-plt.close()
-
-# ===== Pie Chart Predikat =====
-predikat_count = data['Predikat'].value_counts()
-plt.figure(figsize=(9,18))
-plt.pie(predikat_count, labels=predikat_count.index, autopct='%1.1f%%',
-        startangle=90, colors=['orange','skyblue','violet','pink'])
-plt.title(' Predikat Kelulusan')
-plt.show()
 # ============  Diagram Batang  =============
 plt.figure(figsize=(10, 5))
 plt.bar(jmlh_wisudawan['Program Studi'], jmlh_wisudawan['Jumlah Wisudawan'], color='pink')
