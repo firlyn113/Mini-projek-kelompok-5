@@ -48,7 +48,7 @@ print("=============================== DATA PRODI BANYAKNNYA JUMLAH YANG WISUDA 
 print(jmlh_wisudawan)
 
 
-file_keluar="Rekap_hasil_wisuda.xlsx"
+file_keluar="Rekap_hasil_wisuda_grafik.xlsx"
 data.to_excel(file_keluar, index=False)
 
 # ============  Diagram Batang  =============

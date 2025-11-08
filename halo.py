@@ -1,3 +1,3 @@
 print ("firly Ganteng")
-fgklyugfjk
-ojgkgnkghghf
+# fgklyugfjk
+# ojgkgnkghghf
