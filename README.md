@@ -3,7 +3,7 @@
 import pandas as pd
 
 #import  file excel
-file_masuk =  r"C:/Users/MUHAMMAD ZAKI F P/Documents/File Tugas/data_wisuda_modif.xlsx"
+file_masuk =  r"data_wisuda_modif.xlsx"
 data = pd.read_excel(file_masuk)
 
 # Menentukan Grade
@@ -47,7 +47,7 @@ print("=============================== DATA PRODI BANYAKNNYA JUMLAH YANG WISUDA 
 print(jmlh_wisudawan)
 
 
-file_keluar=r"C:/Users/MUHAMMAD ZAKI F P/Documents/File Tugas/Rekap_hasil_wisuda.xlsx"
+file_keluar=r"Rekap_hasil_wisuda.xlsx"
 data.to_excel(file_keluar, index=False)
 
 print(f"\nFile hasil telah disimpan ke: {file_keluar}")
